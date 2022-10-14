@@ -1,6 +1,20 @@
 <!doctype html>
 <html lang="fr">
 <head>
+dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  'ecommerce': {
+    'purchase': {
+      'actionField': { 
+        'name': 'Maillot domicile stade rennais',
+        'price': '90€',
+        'brand': 'Puma',
+        'Taille': 'M',
+       }
+    }
+  }
+});
+</script>
 <script> dataLayer = [{   'ecommerce': 'confirmation',    }];</script>
  <script> dataLayer = [{   'pagecategory': 'confirmation',    }];</script>
 <!-- Google Tag Manager -->
